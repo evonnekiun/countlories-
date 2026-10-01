@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "mobile-app",
-    "slug": "mobile-app",
+    "name": "goodform",
+    "slug": "goodform-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.goodform.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -16,10 +17,23 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.goodform.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow goodform to select a meal photo for your food log.",
+          "cameraPermission": "Allow goodform to take a meal photo for your food log.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "scheme": "goodform"
   }
 }
