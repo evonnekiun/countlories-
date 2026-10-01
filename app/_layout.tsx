@@ -18,6 +18,6 @@ export default function Layout() {
     <Tabs.Screen name="planner" options={{ title: 'Plan', tabBarIcon: ({ color, size }) => <TabIcon symbol="▦" color={color} size={size} /> }} />
     <Tabs.Screen name="circle" options={{ title: 'Circle', tabBarIcon: ({ color, size }) => <TabIcon symbol="♧" color={color} size={size} /> }} />
     <Tabs.Screen name="you" options={{ title: 'You', tabBarIcon: ({ color, size }) => <TabIcon symbol="☺" color={color} size={size} /> }} />
-    <Tabs.Screen name="settings" options={{ title: 'Settings', tabBarIcon: ({ color, size }) => <TabIcon symbol="⚙" color={color} size={size} /> }} />
+    <Tabs.Screen name="settings" options={{ href: null, title: 'Settings' }} />
   </Tabs></DataProvider>;
 }

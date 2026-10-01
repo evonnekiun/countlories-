@@ -1,1 +1,1 @@
-export const COLORS = { bg: '#F5F6F1', ink: '#22362E', green: '#315B49', muted: '#77857D', line: '#E7EBE3', pale: '#E8EEE5', lime: '#D9ED91', white: '#FFFFFF', peach: '#F4EDE4' };
+export const COLORS = { bg: '#F5FAFF', ink: '#19334D', green: '#4D91C8', muted: '#69839A', line: '#DCEAF5', pale: '#E7F4FF', lime: '#B8E2FF', white: '#FFFFFF', peach: '#E9F5FC' };

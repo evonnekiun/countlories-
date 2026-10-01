@@ -32,7 +32,8 @@
           "cameraPermission": "Allow goodform to take a meal photo for your food log.",
           "microphonePermission": false
         }
-      ]
+      ],
+      "expo-notifications"
     ],
     "scheme": "goodform"
   }
